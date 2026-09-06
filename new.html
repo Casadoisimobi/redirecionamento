@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="refresh" content="3; url=https://casadois.net.br/">
+    <title>Redirecionando | CASADOIS Consultoria Imobiliária</title>
+    
+    <link rel="icon" href="https://casadois.net.br/wp-content/uploads/2023/10/cropped-FavIcon-01-32x32.png" sizes="32x32">
+    <link rel="icon" href="https://casadois.net.br/wp-content/uploads/2023/10/cropped-FavIcon-01-192x192.png" sizes="192x192">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+    <style>
+        :root {
+            --primary-color: #1a2b4c; /* Azul escuro corporativo */
+            --accent-color: #c59d5f;  /* Tom dourado/elegante */
+            --text-color: #4a5568;
+            --bg-color: #f8fafc;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'Inter', system-ui, -apple-system, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+            padding: 2rem 1rem;
+        }
+
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            flex-grow: 1;
+            max-width: 480px;
+            width: 100%;
+        }
+
+        .logo-container {
+            margin-bottom: 2rem;
+        }
+
+        .logo {
+            max-width: 220px;
+            height: auto;
+            display: block;
+        }
+
+        .card {
+            background: #ffffff;
+            padding: 2.5rem 2rem;
+            border-radius: 16px;
+            box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.05), 0 8px 10px -6px rgba(0, 0, 0, 0.01);
+            width: 100%;
+        }
+
+        h1 {
+            font-size: 1.25rem;
+            font-weight: 600;
+            color: var(--primary-color);
+            margin-bottom: 0.75rem;
+        }
+
+        p {
+            font-size: 0.95rem;
+            line-height: 1.5;
+            color: var(--text-color);
+            margin-bottom: 1.5rem;
+        }
+
+        /* Animação de carregamento (Spinner) */
+        .spinner {
+            width: 40px;
+            height: 40px;
+            border: 3px solid #e2e8f0;
+            border-top: 3px solid var(--accent-color);
+            border-radius: 50%;
+            animation: spin 1s linear infinite;
+            margin: 0 auto 1.5rem auto;
+        }
+
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+
+        .btn-link {
+            display: inline-block;
+            color: var(--primary-color);
+            font-weight: 600;
+            text-decoration: none;
+            font-size: 0.9rem;
+            transition: color 0.2s ease;
+            border-bottom: 2px solid transparent;
+        }
+
+        .btn-link:hover {
+            color: var(--accent-color);
+            border-bottom-color: var(--accent-color);
+        }
+
+        footer {
+            font-size: 0.8rem;
+            color: #94a3b8;
+            text-align: center;
+            margin-top: 2rem;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="logo-container">
+            <img src="https://casadois.net.br/wp-content/uploads/2023/10/logo-casadois.png" alt="CASADOIS Consultoria Imobiliária" class="logo">
+        </div>
+
+        <div class="card">
+            <div class="spinner"></div>
+            <h1>Redirecionando você...</h1>
+            <p>Aguarde um instante. Você está sendo transferido para o nosso portal de imóveis.</p>
+            <a href="https://casadois.net.br/" class="btn-link">Clique aqui se não for redirecionado automaticamente &rarr;</a>
+        </div>
+    </div>
+
+    <footer>
+        &copy; 2026 CASADOIS Consultoria Imobiliária. Todos os direitos reservados.
+    </footer>
+
+</body>
+</html>
